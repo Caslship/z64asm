@@ -15,7 +15,7 @@ While I wouldn't really recommend this method for anybody with a little bit of A
 
 ### Apply the z64hook patch
 
-Not much to really say about this hack. Use something like PPF-O-Matic to apply z64hook-0.0.2.ppf to the ROM.
+Not much to really say about this hack. Use something like PPF-O-Matic to apply [z64hook-0.0.2.ppf](./z64hook-0.0.2.ppf) to the ROM.
 
 ### Fix the ROM CRC
 
@@ -23,7 +23,7 @@ While not really necessary if you're sticking to emulators like nemu, I would re
 
 ### Inject the Gameshark Code Interpreter
 
-Go ahead and take our precompile binary, gsci.bin, and write it at 0x03600000 in the ROM. We use this particular address because that's the location that z64hook will load into RAM and execute.
+Go ahead and take our precompile binary, [gsci.bin](./gsci.bin), and write it at 0x03600000 in the ROM. We use this particular address because that's the location that z64hook will load into RAM and execute.
 
 ### Inject your gameshark codes
 
